@@ -1,0 +1,25 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Frontend && npm start",
+    "backend": "cd Backend && npm start",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tanstack/react-query": "^5.35.1",
+    "axios": "^1.6.8",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "openai": "^4.40.2",
+    "react-router-dom": "^6.23.1"
+  }
+}

@@ -1,0 +1,60 @@
+* {
+  font-family: Poppins;
+}
+
+.pomodoroStuff {
+  background-color: #ececec;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 3px #e19781;
+}
+
+:root {
+  --red: #f12b2b;
+  --green: #0a853b;
+}
+
+body {
+  background-color: #f9a58c; /* Peach background */
+  color: #0f5257; /* Dark peach text */
+}
+
+main {
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+  color: #0f5257; /* Dark peach text */
+}
+
+button {
+  background-color: transparent;
+  color: #f9a58c; /* Peach text */
+  border: 0;
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+}
+
+button.with-text {
+  width: auto;
+  background-color: #bababa;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+
+button.with-text svg {
+  width: 36px;
+  float: left;
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}

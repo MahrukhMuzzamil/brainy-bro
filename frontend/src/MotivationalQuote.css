@@ -1,0 +1,99 @@
+.motivational-quote {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px;
+  background-color: rgb(99, 135, 99);
+}
+
+.motivational-quote .quote {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.motivational-quote .author {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.home,
+.create,
+.view {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 20px;
+
+  margin: 20px;
+}
+.home button {
+  padding: 20px 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #f9a58c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 40px;
+}
+h1 {
+  background-color: rgb(99, 135, 99);
+  color: white;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #f9a58c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(99, 135, 99);
+}
+
+.home .giphy-container {
+  margin-left: 50px;
+  width: 400px;
+  height: 420px;
+}
+
+.flashcard {
+  padding: 20px;
+  font-size: 40px;
+  margin: 50px;
+  width: 70%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.flashcard.front {
+  background-color: rgb(99, 135, 99);
+  color: #f9a58c;
+}
+
+.flashcard.back {
+  background-color: #f9a58c;
+  color: rgb(99, 135, 99);
+}

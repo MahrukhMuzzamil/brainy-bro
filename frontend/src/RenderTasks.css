@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ececec; /* Light grey */
+  color: #f9a58c; /* Dark peach for text */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ececec; /* Light grey background */
+  color: #f9a58c; /* Dark peach for text */
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.todo-heading {
+  color: #0f5257; /* Dark grey for text */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.add-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px;
+}
+
+.add-button {
+  background-color: #f9a58c; /* Dark peach */
+  color: #f9a58c; /* Dark peach text */
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #0f5257; /* Dark grey border */
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #f7965b; /* Lighter peach on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Light grey border */
+}
+
+th {
+  background-color: #f9a58c; /* Peach */
+}
+
+.action-icon {
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+
+.action-icon.delete:hover {
+  color: red;
+}
+
+.action-icon.update:hover {
+  color: orange;
+}
+
+.action-icon.complete:hover {
+  color: green;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: #888; /* Light grey for completed tasks */
+}
+
+.deadline-crossed {
+  background-color: #e91e1e;
+  color: #fff; /* White text for visibility */
+}

@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* App layout */
+.dashboard-container {
+  text-align: center;
+  padding: 2rem;
+  color: #333;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo {
+    width: 300px; /* Increase the size as needed */
+    margin-bottom: 2rem; /* Add some space below the logo */
+  }
+  
+
+.header h1 {
+  font-size: 3rem; /* Larger font size */
+  color: #0f5257; /* Changed */
+  font-weight: bold; /* Bold text */
+}
+
+.menu {
+  background-color: #f9a58c; /* Changed */
+  padding: 1rem 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li {
+  margin-right: 1rem;
+}
+
+.menu ul li:last-child {
+  margin-right: 0;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+  background-color: #f18c5d; /* Slightly darker shade for hover effect */
+}
